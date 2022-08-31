@@ -56,5 +56,87 @@ We analyzed some of top drone controllers of the market by gathering information
 
 ***Based on the above data, we've decided to use Pixhawk along with PX4***
 
-
+# Features of drone
+3
+R C Controlled : 
+4
+​
+5
+1. Throttle
+6
+2. Pitch 
+7
+3. Yaw
+8
+4. Altitude hold
+9
+5. Hover
+10
+6. Geographical fence
+11
+​
+12
+<br>
+13
+​
+14
+> **1. Throttle**
+15
+​
+16
+<br>
+17
+​
+18
+Throttle is just a upward (or downward) movment of quadcopter which can be achived by increasing (or decreasing) all the propeller speeds by the same amount. It leads to a vertical force with respect to body-fixed frame which raises or lowers the quad-rotor.
+19
+```
+20
+ arm_and_takeoff(aTargetAltitude): #Arms vehicle and fly to aTargetAltitude.
+21
+    # Don't let the user try to arm until autopilot is ready
+22
+ print("Basic pre-arm checks")
+23
+ while not vehicle.is_armable:
+24
+  print(" Waiting for vehicle to initialise...")
+25
+  time.sleep(1)
+26
+ print("Arming motors")
+27
+    # Copter should arm in GUIDED mode
+28
+ vehicle.mode = VehicleMode("GUIDED")
+29
+ vehicle.armed = True
+30
+ 
+31
+ while not vehicle.armed:      
+32
+   print(" Waiting for arming...")
+33
+   time.sleep(1)
+34
+​
+35
+ print("Taking off!")
+36
+   vehicle.simple_takeoff(aTargetAltitude) # Take off to target altitude
+37
+​
+38
+ while True:
+39
+   print(" Altitude: ", vehicle.location.global_relative_frame.alt)      
+40
+      if vehicle.location.global_relative_frame.alt>=aTargetAltitude*0.95: #Trigger just below target alt.
+41
+         print("Reached target altitude")
+42
+         break
+43
+   time.sleep(1)
 
