@@ -54,9 +54,7 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 <br>
 
-> **4. Altitude hold**
 
-<br>
 
  the throttle is automatically controlled to maintain the current altitude.
  
