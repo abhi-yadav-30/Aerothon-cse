@@ -18,18 +18,18 @@ We analyzed some of top drone controllers of the market by gathering information
 
                                                                  COMPARING BOARDS 
 
-|  Board     |   Weight (in gms)  | Open Source Firmware  |  FPV  |  Autonomous Functionality  |  Typical Frame Size  |  Popularity  |  Processor  |
-| ---------  |  ----------------  |  -------------------  |  ---  |  ------------------------  |  ------------------  |  ----------  |  ---------  |
-|            |      39            | ArduPilot, PX4        |  Yes  |         Yes                |   82 x 16 x 50 mm    |   High       | 32          |   
-| Pixhawk    |                    |                       |       |                            |                      |              |             |
-|            |                    |                       |       |                            |                      |              |             |
-|  OpenPilot |       9            |  CleanFlight,         |  Yes  |                            |                      |              | 32          |
-|    CC3D    |                    |  BetaFlight,          |       |         Yes                |   40 x 40 x 18       |  High        |             |
-|            |                    |   ArduPilot           |       |                            |                      |              |             |
-|            |                    |                       |       |                            |                      |              |             |
-|  Navio2    |       23           |  ArduPilot,           |  No   |         Yes                |   55 x 65 mm         |              |  32         |
-|            |                    |  PX4                  |       |                            |                      |  Medium      |             |
-|            |                    |                       |       |                            |                      |              |             |
+|  Board     |   Weight (in gms)  | Open Source Firmware                |  FPV  |  Autonomous Functionality  |  Typical Frame Size  |  Popularity  |  Processor  |
+| ---------  |  ----------------  |  -------------------                |  ---  |  ------------------------  |  ------------------  |  ----------  |  ---------  |
+|  Pixhawk   |      39            | ArduPilot, PX4                      |  Yes  |         Yes                |   82 x 16 x 50 mm    |   High       | 32          |   
+|            |                    |                                     |       |                            |                      |              |             |
+|            |                    |                                     |       |                            |                      |              |             |
+|  OpenPilot |       9            |  CleanFlight,BetaFlight,ArduPilot   |  Yes  |         Yes                |   40 x 40 x 18       |   High       | 32          |
+|    CC3D    |                    |                                     |       |                            |                      |              |             |
+|            |                    |                                     |       |                            |                      |              |             |
+|            |                    |                                     |       |                            |                      |              |             |
+|  Navio2    |       23           |  ArduPilot,PX4                      |  No   |         Yes                |   55 x 65 mm         |   Medium     |  32         |
+|            |                    |                                     |       |                            |                      |              |             |
+|            |                    |                                     |       |                            |                      |              |             |
 
 
 
