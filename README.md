@@ -4,6 +4,9 @@
 We, the Control System team, work on the simulation and the software system that allows our quadcopter to be controlled remotely and operable autonomously. 
 Our mission is to provide a robust, reliable and modular software elements to implement different functions of our drone that enables basic flight, fail safes, payload delivery and autonomy. Using concepts of we tailor each of the algorithms to achieve stable and time efficient flight.
 
+
+
+
 ## Hardware and Firmware : 
 
 We analyzed some of top drone controllers of the market by gathering information for factors like:
@@ -15,6 +18,9 @@ We analyzed some of top drone controllers of the market by gathering information
 6. Typical frame size
 7. Popularity (Higher popularity means more online resources and help)
 8. Processor
+
+
+
 
                                                                  COMPARING BOARDS 
 
@@ -39,7 +45,13 @@ We analyzed some of top drone controllers of the market by gathering information
   | Form-Factor     | High          |High   |
   
 
+
+
+
 **The main difference between Ardupilot and PX4 arises in License Factor. GPL ( General Public License) is a copy left open-source license. This means that all derivatives of Ardupilot must also be released in GPL. Where PX4 is BSD (Berkeley Source Distribution) for which we don't have to openly release the source.**
+
+
+
 
 
 ***Based on the above data, we've decided to use Pixhawk along with PX4***
