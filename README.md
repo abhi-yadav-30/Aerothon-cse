@@ -38,7 +38,10 @@ We analyzed some of top drone controllers of the market by gathering information
                                                                  
   | Specifications  |  ArduPilot    |  PX4  |
   |:---             |:---           |:---   |
-  |
+  |License          |  GPL          |  BSD  |
+  | Sources         |  Open-Source  | Open-Source|
+  | Form-Factor     | High          |High   |
+  
 
 
 
