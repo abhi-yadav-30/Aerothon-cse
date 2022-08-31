@@ -28,6 +28,10 @@ We analyzed some of top drone controllers of the market by gathering information
 
                                                           
                                                           
+                                                          
+                                                          
+                                                          
+                                                          
                                                                  COMPARING ArduPilot and PX4
 
                                                           | Specifications  |  ArduPilot    |  PX4  |
@@ -39,7 +43,6 @@ We analyzed some of top drone controllers of the market by gathering information
 
 **The main difference between Ardupilot and PX4 arises in License Factor. GPL ( General Public License) is a copy left open-source license. This means that all derivatives of Ardupilot must also be released in GPL. Where PX4 is BSD (Berkeley Source Distribution) for which we don't have to openly release the source.**
 
-**
 
 ***Based on the above data, we've decided to use Pixhawk along with PX4***
 
