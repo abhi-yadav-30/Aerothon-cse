@@ -32,7 +32,13 @@ We analyzed some of top drone controllers of the market by gathering information
 |            |                    |                                     |       |                            |                      |              |             |
 
 
-
+                                                          
+                                                          
+                                                                 COMPARING ArduPilot and PX4
+                                                                 
+  | Specifications  |  ArduPilot    |  PX4  |
+  |:---             |:---           |:---   |
+  |
 
 
 
